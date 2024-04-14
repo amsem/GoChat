@@ -1,4 +1,4 @@
-# Real-time Chat App
+# GoChat
 
 ## Run Locally
 
