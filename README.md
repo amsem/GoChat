@@ -1,45 +1,61 @@
 # GoChat
 
-## Run Locally
+GoChat is a real-time chat application that allows users to communicate instantly. This README provides instructions on how to run the application locally.
 
-Clone the project
+## Installation
 
-```bash
-  git clone https://github.com/amsem/GoChat
-```
-
-Go to the project directory
+### Clone the Repository
 
 ```bash
-  cd real-time-chat-app
+git clone https://github.com/amsem/GoChat
 ```
 
-### Back End Setting
+### Backend Setup
+
+Navigate to the project directory
+
+```bash
+cd GoChat/backend
+```
 
 Install dependencies
 
 ```bash
-  cd backend
-  go mod tidy
+go mod tidy
 ```
 
 Start the server
 
 ```bash
-  go run .
+go run .
 ```
 
-### Front End Setting
+### Frontend Setup
+
+Navigate to the project directory
+
+```bash
+cd GoChat/frontend
+```
 
 Install dependencies
 
 ```bash
-  cd frontend
-  npm install
+npm install
 ```
 
 Start the server
 
 ```bash
-  npm start
+npm start
 ```
+
+## Docker Deployment
+
+The application also includes a Dockerfile for running both the backend and frontend apps separately. Please refer to the Docker documentation for deployment instructions.
+
+## About
+
+This real-time chat application is built with Go for the backend and React for the frontend. It provides a seamless communication experience for users, allowing them to connect and chat in real-time.
+
+Feel free to contribute to the project by submitting bug reports or feature requests!
